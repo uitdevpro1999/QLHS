@@ -15,5 +15,10 @@ namespace QLHocSinhTHPT.Component
             InitializeComponent();
         }
         #endregion
+
+        private void frmSplash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

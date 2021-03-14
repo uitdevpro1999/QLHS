@@ -36,12 +36,12 @@
             this.btnDelete = new DevComponents.DotNetBar.ButtonItem();
             this.btnClose = new DevComponents.DotNetBar.ButtonItem();
             this.lVXemDiem = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.colSTT = new System.Windows.Forms.ColumnHeader();
-            this.colMaHocSinh = new System.Windows.Forms.ColumnHeader();
-            this.colHoTen = new System.Windows.Forms.ColumnHeader();
-            this.colMonHoc = new System.Windows.Forms.ColumnHeader();
-            this.colLoaiDiem = new System.Windows.Forms.ColumnHeader();
-            this.colDiem = new System.Windows.Forms.ColumnHeader();
+            this.colSTT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colMaHocSinh = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colHoTen = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colMonHoc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colLoaiDiem = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDiem = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageListXemDiem = new System.Windows.Forms.ImageList(this.components);
             this.bindingNavigatorXemDiem = new System.Windows.Forms.BindingNavigator(this.components);
             this.btnXoa = new System.Windows.Forms.ToolStripButton();
@@ -209,7 +209,7 @@
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.RightToLeftAutoMirrorImage = true;
-            this.btnXoa.Size = new System.Drawing.Size(125, 32);
+            this.btnXoa.Size = new System.Drawing.Size(138, 32);
             this.btnXoa.Text = "Xóa dòng được chọn";
             this.btnXoa.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
@@ -218,7 +218,7 @@
             this.btnThoat.Image = global::QLHocSinhTHPT.Properties.Resources.exit;
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.RightToLeftAutoMirrorImage = true;
-            this.btnThoat.Size = new System.Drawing.Size(55, 32);
+            this.btnThoat.Size = new System.Drawing.Size(57, 32);
             this.btnThoat.Text = "Thoát";
             this.btnThoat.Click += new System.EventHandler(this.bindingNavigatorExitItem_Click);
             // 
@@ -416,6 +416,7 @@
             this.ctxMenu.SetContextMenuEx(this, this.btnMenu);
             this.Controls.Add(this.groupBoxDanhSach);
             this.Controls.Add(this.navPaneLeft);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmXemDiem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

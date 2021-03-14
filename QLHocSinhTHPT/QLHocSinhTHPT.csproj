@@ -670,6 +670,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graduation.ico" />
+    <Content Include="Resources\plash.jpg" />
+    <None Include="Resources\plashh.png" />
+    <None Include="Resources\plash1.jpg" />
     <None Include="Resources\phanlop.png" />
     <None Include="Properties\DataSources\QLHocSinhTHPT.Bussiness.KQCaNamMonHocInfo.datasource" />
     <None Include="Properties\DataSources\QLHocSinhTHPT.Bussiness.KQCaNamTongHopInfo.datasource" />
@@ -705,7 +708,6 @@
     <None Include="Resources\dangnhapcontext.png" />
     <None Include="Resources\loginimage.png" />
     <None Include="Database\QLHocSinhTHPT_Database.SQL" />
-    <None Include="Resources\splash.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="BusinessObjects.CrystalReports.NET.2.0">
